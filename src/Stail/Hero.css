@@ -1,0 +1,91 @@
+.title{
+    margin-bottom: 80px;
+     margin-top: 700px;
+     margin-left: 297px; 
+     position: absolute;
+     z-index: 10;
+}
+.hero{
+    background-image: url("../imajes/beautiful-brunette-woman-fashion-dress-sequins-with-dispersion-effect\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_p{
+    color: var(--Primary-White, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    text-transform: uppercase;
+    margin-left: 350px;
+}
+.title_h1{
+    color: var(--Primary-White, #FFF);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; /* 72px */
+    text-transform: uppercase;
+    text-align: center;
+    width: 845px;
+    
+}
+.btn_a{
+    display: flex;
+    padding: 16px 48px 10px 48px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #7373D7;
+    height: 55px;
+    width: 190px;
+    color: var(--Primary-White, #FFF);
+    margin-left: 340px;
+    height: 60px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 27.2px */
+    text-transform: uppercase;
+    
+    margin-top: 40px;
+    border: none;
+    transition: 1s;
+}
+.btn_a:hover{
+    border: 1px solid #7373D7;
+    background-color: #FFF;
+    color: #7373D7;
+    transition: 1s;
+}
+
+@media (max-width:1400px){
+
+    .title {
+        margin-bottom: 80px;
+        margin-top: 700px;
+        margin-left: 200px;
+        position: absolute;
+        z-index: 10;
+    }
+
+}
+@media (max-width:1380px){
+
+    .title {
+        margin-left: 60px;
+    }
+
+}
+@media (max-width:1280px){
+
+    .title {
+        margin-left: 10px;
+    }
+}
+    

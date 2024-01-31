@@ -1,0 +1,39 @@
+.AboutWrapper{
+    position: relative;
+}
+.Abaut_hero{
+    background-image: url("../imajes/Mask\ Group.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 80px; 
+}
+
+.About__text{
+    position: absolute;
+    z-index: 5;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+.About__text h1{
+    color: var(--brand-white, #FFF);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 72.8px */
+    text-transform: uppercase;
+}
+.About__text p{
+    width: 519px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+    color: #FFF;
+}
+
+
+  

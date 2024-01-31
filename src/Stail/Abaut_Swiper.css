@@ -1,0 +1,85 @@
+
+
+.border_Shop a{
+  color: #222;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.Card_img{
+  width: 411px;
+  flex-shrink: 0;
+  background: #7373D7;
+  height: 548px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Swayper_ig li{
+  border: 1px solid #fff;
+  position: absolute;
+  margin-top: -50px;
+  z-index: 7;
+  width: 379px;
+  height: 1px;
+  background: #FFF;  
+  margin-left: 14px;
+ 
+}
+.Swayper_ig li p{
+  color: #FFF;
+  margin-left: 127px;
+  margin-top: 8px;
+}
+.Swayper_ig p{
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  margin-top: 8px;
+
+}
+.Swayper_ig{
+  margin-bottom: 80px;
+}
+.batn p{
+  color: var(--brand-dark-brown, #42210B);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; /* 22.4px */
+  text-align: center;
+}
+.batn a{
+  color: var(--Primary-White, #FFF);
+  font-size: 17px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 27.2px */
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  width: 196px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 28px;
+  background: #7373D7;
+  padding: 16px 46px 12px 46px;
+  margin-bottom: 79px;
+  margin-top: 16px;
+  transition: 1s;
+  border: 1px solid #7373D7    ;
+}
+.batn a:hover{
+  border: 1px solid #7373D7;
+  color: #7373D7;
+  background-color: #FFF;
+  transition: 1s;
+}

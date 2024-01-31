@@ -1,0 +1,114 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    
+    height: 480px;
+    margin: 0 auto;
+}
+.foot_2{
+    display: flex;
+    justify-content: center;
+    margin-left: 109px;
+    gap: 110px;
+    margin-top: -125px;
+}
+.foot_1{
+    margin-right: 132px;
+}
+li{
+    list-style: none;
+}
+.foot_title{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 33.6px */
+    text-transform: uppercase;
+}
+.foot_p{
+    width: 411px;
+    color: #B7B7B7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-top: 16px;
+}
+.input{
+    width: 411px;
+    border-radius: 61px;
+    border: 1px solid #b7b7b7;
+    height: 60px;
+    background-color: #222;
+    color: #FFF;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 24px;
+}
+.insta{
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+.sana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sana li {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    font-size: 14px;
+    margin-right: 50px;
+}
+.border_left{
+    border-left: 2px solid #B7B7B7;;
+    height: 360px;
+    margin-right: 10px;
+}
+.cards h3{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.cards p{
+    color: #B7B7B7;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; 
+}
+.cards{
+    width: 99px;
+    
+}
+.cobwenya{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 10;
+    border: 5px double #7373D7;
+    border-radius: 50%;
+    width: 73px;
+    height: 73.6px;
+    transition: 500ms;
+}
+.cobwenya:hover{
+    width: 80px;
+    height: 80px;
+    background-color: #7373D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 40px;
+    right: 40px;
+    transition: 500ms;
+    cursor: help;
+}
